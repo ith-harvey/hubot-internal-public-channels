@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ith-harvey/hubot-internal-public-channels.git"
+  },
   "author": "Ian Harvey (ith-harvey)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hubot-doge-utility-functions": "^1.3.1"
+  }
 }

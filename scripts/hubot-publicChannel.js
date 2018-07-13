@@ -1,5 +1,3 @@
-const request = require('request')
-const rp = require('request-promise')
 const {RBU, FU} = require('hubot-doge-utility-functions')
 const Resp = require('./responses.js')
 
