@@ -1,0 +1,11 @@
+{
+  "name": "hubot-internal-public-channels",
+  "version": "1.0.0",
+  "description": "A rocket.Chat Hubot specific bot that makes private rocket.chat groups queryable if they have a '-pub' tag and have invited the hubot to the channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Harvey (ith-harvey)",
+  "license": "MIT"
+}
