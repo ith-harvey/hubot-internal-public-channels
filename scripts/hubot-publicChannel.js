@@ -8,8 +8,8 @@ const channelsListFlow = async () => {
   const privGroups =  {obj: {}, string: ''}
 
   privateRooms.forEach(group => {
-    let pubTag = group.name.substr(group.name.length - 4)
-    if (pubTag === '-pub') {
+    let pubTag = group.name.substr(group.name.length - 9)
+    if (pubTag === '-internal') {
       privGroups.string += `*${group.name}*\n`
       privGroups.obj[group.name] = group._id
     }
